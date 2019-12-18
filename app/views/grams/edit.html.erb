@@ -1,4 +1,7 @@
+<h2> Edit Gram </h2>
 <%= simple_form_for @gram do |f| %>
   <%= f.input :message %>
+  <%= f.input :picture %>
+  <%= f.submit 'Update' %>
   <%= f.submit %>
 <% end %>
