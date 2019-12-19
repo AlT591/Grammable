@@ -1,0 +1,7 @@
+AWS_ACCESS_KEY: "AKIARBHI2FVTCKNSRGVT"
+AWS_SECRET_KEY: "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"
+AWS_BUCKET:     "my-flixter-bucket-trujillo"
+AWS_REGION:     "us-east-1"
+
+SECRET_KEY: 'sk_test_Egyo3I3nQI2cq0rYtUeSvadY006gOjQhlh'
+PUBLISHABLE_KEY: 'pk_test_ZVZHwFn0glApjU1fvgjTaxCv00gpRyVcbB'

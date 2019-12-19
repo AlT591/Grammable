@@ -2,6 +2,7 @@ class GramsController < ApplicationController
   before_action :authenticate_user!, only: [:new, :create, :edit, :update, :destroy]
 
   def index
+    @grams = Gram.all
   end
 
   def new
@@ -62,8 +63,6 @@ class GramsController < ApplicationController
     render plain: "#{status.to_s.titleize} :(", status: status
   end
 
-  def index
-  @grams = Gram.all
-  end
+  
 
 end
